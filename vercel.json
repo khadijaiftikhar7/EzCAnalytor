@@ -1,11 +1,14 @@
 {
-    "experimentalServices": {
-        "frontend": {
-            "routePrefix": "/"
-        },
-        "backend": {
-            "entrypoint": "backend",
-            "routePrefix": "/_/backend"
-        }
+  "experimentalServices": {
+    "backend": {
+      "rootDirectory": "backend",
+      "entrypoint": "server.js",
+      "routePrefix": "/api"
+    },
+    "frontend": {
+      "rootDirectory": "frontend",
+      "framework": "create-react-app",
+      "routePrefix": "/"
     }
+  }
 }
