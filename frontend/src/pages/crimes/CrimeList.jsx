@@ -34,8 +34,7 @@ const Pagination = ({ currentPage, totalPages, total, limit, onPageChange }) => 
 };
 
 const CrimeList = () => {
-  const { isAdmin, isOfficer, isOfficerOrAdmin, //user
-         } = useAuth();
+  const { isAdmin, isOfficer, isOfficerOrAdmin} = useAuth();
   const navigate = useNavigate();
   const [crimes, setCrimes] = useState([]);
   const [loading, setLoading] = useState(true);
