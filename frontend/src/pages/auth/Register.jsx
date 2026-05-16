@@ -29,7 +29,7 @@ const Register = () => {
         <div className="auth-logo">
           <div className="auth-logo-icon">⬡</div>
           <div>
-            <div className="auth-title">Nigehban</div>
+            <div className="auth-title">NIGEHBAN</div>
             <div style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: "var(--text-muted)", letterSpacing: 2 }}>
               CRIME ANALYTICS PLATFORM
             </div>
